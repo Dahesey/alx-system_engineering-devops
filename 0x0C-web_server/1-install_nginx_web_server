@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
-# A_script_to Install_nginx on_my_webserver
-
+# Instalation_nginx_server
 apt-get update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
