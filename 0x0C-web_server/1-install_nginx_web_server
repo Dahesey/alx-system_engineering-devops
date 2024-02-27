@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# A_script_to Install_nginx_on_my_webserver
+# A_script_to Install_nginx on_my_webserver
 
 apt-get update
 apt-get -y install nginx
