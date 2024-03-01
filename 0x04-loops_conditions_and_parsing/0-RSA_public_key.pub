@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
--- My server public key
+# My server public key
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCCUgA1XXSlBcpGYEWtp6FsGnHiQSKQiwxboa/L9RtkZXI/NiUTssGrfPWaXiyJhvbe1/YE/rMzfQIgBW7Uwt95eG63gVw+PyDh996KAkzeu4ruEorwsVeTlEMG4bEQmMMHi/xrr+NEb2j02MAnoCdMsBHXRlKg2I9DkJbipGsG5E3+9l68o8iCMs0Vq644HtGM/vAR4BgTjVh2fTMmPhyKYGAwItJbH2v189ZKiAn8yUkNE3JC5VwJMbpSKKOp1Jno6auPLJPEL8L8Qu6S/bmGPQzKsgXfDYcbmvbN0Zh76L1HZA/aCWMZVLwkzE3ibkO3LTbcuzBn4sA5BH0NvuoV
