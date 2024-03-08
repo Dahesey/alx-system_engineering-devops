@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#A script to print the content of a director in a list format
+
+file=()
+readarray -t file < <(find . -regex "./[^.].*" | sort)
+for ((i = 0; i < "${#file[@]}"; i++)) do
+  j=0
+  file_print="0"
+  for ((j = 0; j < "${#file[i]}"; j++)) do
+    if [[ "${file[i]:j:1}" == "-" ]]; then
+      echo "${file[i]:j+1}"
+      file_print="1"
+      break
+    fi
+  done
+  if [[ $file_print == "0" ]]; then
+    echo "${file[i]:2}"
+  fi
+done
