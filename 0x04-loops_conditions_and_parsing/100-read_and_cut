@@ -5,12 +5,12 @@ file="/etc/passwd"
 i=0
 lines=0
 IFS=':'
-if test -f $file_name; then
-  lines="$(wc -l < $file_name)"
+if test -f $file; then
+  lines="$(wc -l < $file)"
   fields=('username' 'password' 'user_id' 'group_id' 'user_id_info' 'home_dir' 'command')
   while [[ $i -lt $lines ]]; do
     i="$((i + 1))"
-    read -r -a fields < <(tail -n 1 <(head -n $i < $file_name))
+    read -r -a fields < <(tail -n 1 <(head -n $i < $file))
     echo "${fields[0]}:${fields[2]}:${fields[5]}"
   done
 fi
