@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#A script to add an ssh private key with user ubuntu and key
+#at path ~/.ssh/school
+
+ssh ubuntu@100.25.202.105 -i ~/.ssh/school
